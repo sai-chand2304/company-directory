@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Companies Directory</h2>
+
+  <div class="filters">
+    <input type="text" placeholder="Search by name..." [(ngModel)]="searchText" (input)="applyFilters()" />
+
+    <select [(ngModel)]="selectedIndustry" (change)="applyFilters()">
+      <option *ngFor="let industry of industries">{{ industry }}</option>
+    </select>
+
+    <select [(ngModel)]="selectedLocation" (change)="applyFilters()">
+      <option *ngFor="let location of locations">{{ location }}</option>
+    </select>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Industry</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let company of filteredCompanies">
+        <td>{{ company.name }}</td>
+        <td>{{ company.industry }}</td>
+        <td>{{ company.location }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

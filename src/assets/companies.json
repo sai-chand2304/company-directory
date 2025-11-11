@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Google", "industry": "Tech", "location": "USA" },
+  { "id": 2, "name": "Infosys", "industry": "IT", "location": "India" },
+  { "id": 3, "name": "BMW", "industry": "Automobile", "location": "Germany" },
+  { "id": 4, "name": "TCS", "industry": "IT", "location": "India" },
+  { "id": 5, "name": "Amazon", "industry": "E-commerce", "location": "USA" },
+  { "id": 6, "name": "Paytm", "industry": "FinTech", "location": "India" },
+  { "id": 7, "name": "Mahindra", "industry": "Automobile", "location": "India" },
+  { "id": 8, "name": "Capgemini", "industry": "IT", "location": "USA" },
+  { "id": 9, "name": "PhonePe", "industry": "FinTech", "location": "India" },
+  { "id": 10, "name": "AUDI", "industry": "Automobile", "location": "Germany" },
+  { "id": 11, "name": "TATA", "industry": "Automobile", "location": "India" }
+
+]
